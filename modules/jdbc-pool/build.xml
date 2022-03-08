@@ -226,7 +226,7 @@
 
 
   <target name="clean">
-      <mkdir dir="${tomcat.pool}"/>
+      <delete dir="${tomcat.pool}"/>
       <delete file="${tomcat-jdbc.jar}" />
       <delete file="${tomcat-jdbc-src.jar}"/>
       <delete includeemptydirs="true" failonerror="false">
